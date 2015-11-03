@@ -95,7 +95,7 @@ public class Select_Ship_Positions extends ActionBarActivity implements View.OnT
                     y = arg1.getRawY() + diffY;
                     arg0.setX(x);
                     arg0.setY(y);
-                    Log.i("X Position : Y Position", x + "  " + y);
+                    //Log.i("X Position : Y Position", x + "  " + y);
 
                     if(x<250) {
                         arg0.setX(149.47f);
